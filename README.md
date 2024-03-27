@@ -1,5 +1,10 @@
-<h1>Intructions to run:</h1>
-Requirements: Ant and Apache Tomcat
+<h1>Instructions to run:</h1>
+Requirements:
+<ul>
+    <li>Apache Ant https://ant.apache.org/</li>
+    <li>Apache Tomcat https://tomcat.apache.org/download-90.cgi</li>
+    <li>MySQL Community Server 8.3.0 https://dev.mysql.com/downloads/mysql/</li>
+</ul>
 <h3>Running Manually</h3>
 <ol>
     <li> Build the project in order to compile classes</li>
@@ -36,4 +41,8 @@ Requirements: Ant and Apache Tomcat
         The index.jsp page should open automatically.
     </li>
 </ol>
+<h3>MySql Settings</h3>
+The installation of the MySql server is set up as follows:
+- Cofig Type = development computer
+- Connectivity = TCP/IP port 3306
     
